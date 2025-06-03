@@ -12,7 +12,7 @@ This Java program performs skeletonization on binary images using distance trans
 To compile the Java program, run:
 
 ```bash
-javac HaqueA_Project5_Main.java
+javac extract_skeleton.java
 ```
 
 This will generate the necessary `.class` files.
@@ -22,7 +22,7 @@ This will generate the necessary `.class` files.
 To run the program, use the following command:
 
 ```bash
-java HaqueA_Project5_Main input.txt 8 prettyPrint.txt skeleton.txt decompressed.txt log.txt
+java extract_skeleton input.txt 8 prettyPrint.txt skeleton.txt decompressed.txt log.txt
 ```
 
 - `input.txt`: The input file containing the binary image.
